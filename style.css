@@ -4,7 +4,7 @@ body {
   }
   
   .navbar {
-    background-color: #E5E5E5;
+    background-color: #59492A;
     padding: 12px 24px;
     display: flex;
     align-items: center;
@@ -30,14 +30,14 @@ body {
   
   .nav-links li a {
     text-decoration: none;
-    color: #333;
+    color: #79818C;
     font-weight: 500;
     padding: 8px;
     transition: color 0.3s ease;
   }
   
   .nav-links li a:hover {
-    color: #0077ff;
+    color: #D9C896;
   }
   
   .dropdown {
@@ -63,7 +63,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: white;
+    background-color: #59492A;
     border-radius: 6px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
     display: flex;
@@ -77,7 +77,7 @@ body {
   .dropdown-menu li a {
     padding: 12px 20px;
     display: block;
-    color: #333;
+    color: #79818C;
     white-space: nowrap;
     transition: background-color 0.2s;
   }
@@ -104,7 +104,7 @@ body {
   
 .product-catalog {
     padding: 60px 40px;
-    background-color: #ffffff;
+    background-color: #D9C896;
 }
 
 .product-catalog h2 {
@@ -153,7 +153,7 @@ body {
 }
 
 .product button {
-    background-color: #0077ff;
+    background-color: #79818C;
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -164,13 +164,15 @@ body {
 }
 
 .product button:hover {
-    background-color: #005bb5;
+    background-color: #D9C896;
 }
 
 .product:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
-* {
-    background-color: rgb(239, 227, 227);
+
+.product-catalog .titulo {
+  color: #593E25;
+  font-family:'Times New Roman', Times, serif
 }
