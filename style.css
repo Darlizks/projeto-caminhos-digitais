@@ -30,7 +30,7 @@ body {
   
   .nav-links li a {
     text-decoration: none;
-    color: #79818C;
+    color: white;
     font-weight: 500;
     padding: 8px;
     transition: color 0.3s ease;
@@ -175,4 +175,25 @@ body {
 .product-catalog .titulo {
   color: #593E25;
   font-family:'Times New Roman', Times, serif
+}
+
+.home-body {
+  background-color: #D9C896;
+  align-items: center;
+  margin: 0;
+  
+
+}
+
+.home-catalog .bem-vindo {
+  font-family: f;
+  text-align: center;
+  font-size: 50px;
+  color: #59492A;
+}
+.home-catalog .Coffeeshop {
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  color: ;
 }
