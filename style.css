@@ -185,3 +185,12 @@ body {
   background-image: url(/Bem\ vindo\ ao.jpg);
   background-size: 100%
 }
+
+.infor {
+  text-align: left;
+  font-size: 25px;
+}
+
+.infor h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
